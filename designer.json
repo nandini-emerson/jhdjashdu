@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "node-1775037125467",
+      "type": "agent",
+      "data": {
+        "label": "Ecommerce Attendance Tracker Agent edited Design",
+        "agentId": "3ab14ae6-1f90-45e5-9d56-4264a6d73634",
+        "agentName": "Ecommerce Attendance Tracker Agent edited Design",
+        "config": {}
+      },
+      "position": {
+        "x": 410.2264211997178,
+        "y": 372.04603423256015
+      }
+    },
+    {
+      "id": "node-1775037126342",
+      "type": "agent",
+      "data": {
+        "label": "Healthcare Employee Attendance Tracker Design",
+        "agentId": "13f94957-4100-4972-a9e8-f0cfd561d4b9",
+        "agentName": "Healthcare Employee Attendance Tracker Design",
+        "config": {}
+      },
+      "position": {
+        "x": 407.55171164887713,
+        "y": 147.91888742744277
+      }
+    },
+    {
+      "id": "node-1775037126688",
+      "type": "agent",
+      "data": {
+        "label": "Healthcare Employee Attendance Tracker Design",
+        "agentId": "13f94957-4100-4972-a9e8-f0cfd561d4b9",
+        "agentName": "Healthcare Employee Attendance Tracker Design",
+        "config": {}
+      },
+      "position": {
+        "x": -100.089893240361,
+        "y": -299.72881670716646
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-1775037126688-node-1775037126342-1775037140208",
+      "source": "node-1775037126688",
+      "target": "node-1775037126342",
+      "sourceHandle": "bottom-source",
+      "targetHandle": "top-target",
+      "type": "smoothstep",
+      "data": {
+        "edgeStyle": "solid",
+        "lineType": "smoothstep",
+        "sourceHandlePosition": "bottom",
+        "targetHandlePosition": "top"
+      }
+    },
+    {
+      "id": "edge-node-1775037126342-node-1775037125467-1775037143352",
+      "source": "node-1775037126342",
+      "target": "node-1775037125467",
+      "sourceHandle": "bottom-source",
+      "targetHandle": "top-target",
+      "type": "smoothstep",
+      "data": {
+        "edgeStyle": "solid",
+        "lineType": "smoothstep",
+        "sourceHandlePosition": "bottom",
+        "targetHandlePosition": "top"
+      }
+    }
+  ],
+  "buildIds": [
+    "13f94957-4100-4972-a9e8-f0cfd561d4b9",
+    "3ab14ae6-1f90-45e5-9d56-4264a6d73634"
+  ]
+}
